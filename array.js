@@ -34,3 +34,10 @@ console.log(friendsAge);
 // remove element from the beginning
 friendsAge.shift();
 console.log(friendsAge);
+
+// slice() method
+// returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.
+var friendsName = ['aaa', 'bbb', 'ccc', 'ddd', 'eee', 'fff'];
+var part = friendsName.slice(2, 5);
+console.log(part);
+console.log(friendsName);
